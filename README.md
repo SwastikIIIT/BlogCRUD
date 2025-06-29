@@ -1,4 +1,4 @@
-# 📚 Readora
+![image](https://github.com/user-attachments/assets/d224210f-725a-4eaa-89ee-3f1b50b284e0)# 📚 Readora
 
 > A modern, SEO-optimized blog platform built with Next.js for seamless content management and sharing.
 
@@ -14,12 +14,12 @@
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SwastikIIIT/Readora/main/assets/homepage.png" alt="Homepage Screenshot" width="800"/>
+  <img src="https://github.com/user-attachments/assets/9049b7e6-b011-414f-a7e4-0cc42b795d12" alt="Homepage Screenshot" width="800"/>
   <p><em>Clean and modern homepage design</em></p>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SwastikIIIT/Readora/main/assets/admin-panel.png" alt="Admin Panel Screenshot" width="800"/>
+  <img src="https://github.com/user-attachments/assets/6e6236f4-abdc-4172-9c73-d09f9bcec1da" alt="Admin Panel Screenshot" width="800"/>
   <p><em>Intuitive admin panel with React-Quill editor</em></p>
 </div>
 
@@ -68,11 +68,10 @@
 ```
 my-app/
 ├── components/          # Reusable React components
-├── pages/              # Next.js pages and API routes
-├── styles/             # CSS and styling files
-├── utils/              # Utility functions and helpers
-├── lib/                # Configuration and setup files
-└── public/             # Static assets
+├── app/                 # Next.js pages and API routes
+├── utils/               # Utility functions 
+├── models/              # DB schema files
+└── helper/              # Commonly used functions
 ```
 
 ## 🚀 Getting Started
