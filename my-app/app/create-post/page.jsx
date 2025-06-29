@@ -64,33 +64,45 @@ const CreatePostPage = () => {
     <div className="min-h-screen bg-gray-50">
         <header className="bg-white/95 backdrop-blur-sm border-b border-gray-200/60 sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-3 items-center h-16">
+            <div className="grid grid-cols-2 sm:grid-cols-3 items-center h-16">
+              
               <div className="flex items-center space-x-3">
                 <Link href="/">
-                  <button className="cursor-pointer group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 hover:from-blue-100 hover:to-indigo-100 transition-all duration-200 group border border-blue-100/50">
-                    <Home className="h-5 w-5  text-blue-600 group-hover:text-blue-700 transition-colors" />
+                  <button className="cursor-pointer group flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 hover:from-blue-100 hover:to-indigo-100 transition-all duration-200 group border border-blue-100/50">
+                    <Home className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 group-hover:text-blue-700 transition-colors" />
                   </button>
                 </Link>
 
                 <Link href="/dashboard">
-                  <button className="cursor-pointer group flex items-center px-3 py-2 rounded-lg text-gray-700 hover:text-gray-950 hover:bg-gray-100 transition-all duration-200 border border-transparent hover:border-gray-400/50">
-                    <ArrowLeft className="h-4 w-4 mr-2 transition-transform group-hover:-translate-x-0.5" />
-                    <span className="text-sm font-medium">Dashboard</span>
+                  <button className="cursor-pointer group flex items-center px-2 py-1.5 sm:px-3 sm:py-2 rounded-lg text-gray-700 hover:text-gray-950 hover:bg-gray-100 transition-all duration-200 border border-transparent hover:border-gray-400/50">
+                    <ArrowLeft className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 transition-transform group-hover:-translate-x-0.5" />
+                    <span className="text-xs sm:text-sm font-medium">Dashboard</span>
                   </button>
                 </Link>
               </div>
 
-              <div className="flex items-center justify-center space-x-2">
+              <div className="hidden sm:flex items-center justify-center space-x-2">
                 <div className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500"></div>
                 <h1 className="text-xl font-semibold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
                   Create New Post
                 </h1>
               </div>
 
-              <div className="flex items-center justify-end space-x-3">
+              <div className="flex items-center justify-end space-x-2 sm:space-x-3">
+                <div className="flex sm:hidden items-center space-x-1.5">
+                  <div className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500"></div>
+                  <h1 className="text-sm font-semibold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                    Create New Post
+                  </h1>
+                </div>
+
                 <div className="hidden sm:flex items-center space-x-2 px-3 py-1.5 bg-green-50 text-green-700 text-sm font-medium rounded-full border border-green-200/50">
                   <div className="w-2 h-2 rounded-full bg-green-500"></div>
                   <span>Draft Mode</span>
+                </div>
+
+                <div className="flex sm:hidden items-center justify-center w-8 h-8 bg-green-50 rounded-full border border-green-200/50">
+                  <div className="w-2 h-2 rounded-full bg-green-500"></div>
                 </div>
               </div>
             </div>

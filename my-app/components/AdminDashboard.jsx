@@ -70,21 +70,21 @@ const AdminDashboard=()=>{
   return (
     <div className="min-h-screen bg-gray-50">
         <header className="bg-white/80 backdrop-blur-md border-b border-gray-200/50 sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
-              <div className="flex items-center space-x-10">
+              <div className="flex items-center space-x-6 sm:space-x-10">
                 <Link 
                   href="/" 
-                  className="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 hover:from-blue-100 hover:to-indigo-100 transition-all duration-200 group border border-blue-100/50"
+                  className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 hover:from-blue-100 hover:to-indigo-100 transition-all duration-200 group border border-blue-100/50"
                 >
-                  <Home className="h-6 w-6 text-blue-600 group-hover:text-blue-700 transition-colors" />
+                  <Home className="h-5 w-5 sm:h-6 sm:w-6 text-blue-600 group-hover:text-blue-700 transition-colors" />
                 </Link>
                 
-                <div className="flex items-center space-x-5">
-                  <h1 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                <div className="flex items-center space-x-3 sm:space-x-5">
+                  <h1 className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
                     Admin Dashboard
                   </h1>
-                  <div className="px-3 py-1.5 bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 text-sm font-medium rounded-full border border-blue-100/50 shadow-sm">
+                  <div className="px-2 py-1 sm:px-3 sm:py-1.5 bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 text-xs sm:text-sm font-medium rounded-full border border-blue-100/50 shadow-sm">
                     {posts.length} Posts
                   </div>
                 </div>
