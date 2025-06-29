@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d224210f-725a-4eaa-89ee-3f1b50b284e0)# 📚 Readora
+# 📚 Readora
 
 > A modern, SEO-optimized blog platform built with Next.js for seamless content management and sharing.
 
@@ -16,11 +16,6 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9049b7e6-b011-414f-a7e4-0cc42b795d12" alt="Homepage Screenshot" width="800"/>
   <p><em>Clean and modern homepage design</em></p>
-</div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6e6236f4-abdc-4172-9c73-d09f9bcec1da" alt="Admin Panel Screenshot" width="800"/>
-  <p><em>Intuitive admin panel with React-Quill editor</em></p>
 </div>
 
 ## ✨ Features
