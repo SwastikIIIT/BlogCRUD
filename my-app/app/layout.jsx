@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Blog Website",
-  description: "Discover amazing stories and insights",
+  title: "Readora",
+  description: "Read amazing stories and insights",
 };
 
 export default function RootLayout({ children }) {

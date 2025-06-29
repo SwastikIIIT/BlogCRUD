@@ -10,7 +10,7 @@ export async function generateMetadata({params})
 
   if(!post){
     return {
-      title: 'Post Not Found | Blog',
+      title: 'Post Not Found | Readora',
       description: 'The requested blog post could not be found.',
       robots: {index:false,follow:false}
     }
@@ -24,13 +24,13 @@ export async function generateMetadata({params})
   const canonicalUrl=`${baseUrl}/blog/${post.slug}`;
 
   return {
-        title: `${post.title} | Blog`,
+        title: `${post.title} | Readora`,
         description: excerpt,
         openGraph: {
             title: post.title,
             description: excerpt,
             url: canonicalUrl,
-            siteName: 'Your Blog',
+            siteName: 'Readora',
             type: 'article',
             publishedTime: post.createdAt,
             modifiedTime: post.updatedAt
