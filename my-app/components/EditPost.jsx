@@ -153,18 +153,18 @@ const EditPost = ({slug}) => {
           <h2 className="text-lg font-medium text-gray-900 mb-4">Post Information</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
             <div>
-              <span className="font-medium">Created:</span> {formatDate(postData.createdAt)}
+              <span className="font-medium">Created:</span>{formatDate(postData?.createdAt)}
             </div>
             <div>
-              <span className="font-medium">Last Updated:</span> {formatDate(postData.updatedAt)}
+              <span className="font-medium">Last Updated:</span> {formatDate(postData?.updatedAt)}
             </div>
             <div>
               <span className="font-medium">Original Slug:</span> 
-              <span className="font-mono ml-1">/{postData.slug}</span>
+              <span className="font-mono ml-1">/{postData?.slug}</span>
             </div>
             <div>
               <span className="font-medium">Post ID:</span> 
-              <span className="font-mono ml-1">{postData._id}</span>
+              <span className="font-mono ml-1">{postData?._id}</span>
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@ const EditPost = ({slug}) => {
                 />
               </div>
 
-              {postSlug !== postData.slug && (
+              {postSlug !== postData?.slug && (
                 <p className="text-xs text-amber-600 mt-1">
                   ⚠️ Changing the slug will update the post URL. This may affect SEO and existing links.
                 </p>
