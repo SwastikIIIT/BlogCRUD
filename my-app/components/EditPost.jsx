@@ -106,20 +106,6 @@ const EditPost = ({slug}) => {
     );
   }
 
-  if (!postData) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Post Not Found</h1>
-          <p className="text-gray-600 mb-4">The post you're trying to edit doesn't exist.</p>
-          <button className="flex items-center mx-auto px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            <ArrowLeft className="h-4 w-4 mr-2" />
-            Back to Dashboard
-          </button>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -158,12 +144,7 @@ const EditPost = ({slug}) => {
           </div>
         </div>
       </header>
-              {/* <div className="flex items-center space-x-3">
-                <button className="flex items-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors">
-                  <Eye className="h-4 w-4 mr-2" />
-                  Preview
-                </button>
-              </div> */}
+             
 
       
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

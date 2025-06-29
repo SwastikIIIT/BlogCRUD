@@ -128,7 +128,7 @@ const HomePageComponent = () => {
             <div className="mb-6">
               <div className="inline-flex items-center space-x-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium border border-blue-400/50">
                 <BookOpen className="w-4 h-4" />
-                <span>Welcome to Our Blog</span>
+                <span>Welcome to Readora</span>
               </div>
             </div>
             <h1 className="text-5xl font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 bg-clip-text text-transparent sm:text-6xl md:text-7xl leading-tight">
