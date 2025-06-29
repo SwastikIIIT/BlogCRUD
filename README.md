@@ -2,8 +2,6 @@
 
 > A modern, SEO-optimized blog platform built with Next.js for seamless content management and sharing.
 
-![Readora Banner](https://raw.githubusercontent.com/SwastikIIIT/Readora/main/assets/banner.png)
-
 <div align="center">
 
 ![Next.js](https://img.shields.io/badge/Next.js-13+-black?style=for-the-badge&logo=next.js&logoColor=white)
